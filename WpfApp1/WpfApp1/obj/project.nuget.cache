@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FFgAHoelTkml44yfH5JTbDBbxPw5pQKVjv/0bxPb1ChljMFliP/ZEN3iAiCosm6ORaqcK5G11hmewi5jNN1fzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\art10\\Projects\\Deposit_Calculator\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\art10\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
