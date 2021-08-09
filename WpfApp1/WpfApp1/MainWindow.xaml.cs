@@ -21,7 +21,6 @@ namespace WpfApp1 {
 
         public MainWindow() {
             InitializeComponent();
-            // Добавляем обработчик для всех кнопок на гриде
             this.GetResult.Click += GetResult_Click;
         }
         public void GetResult_Click(object sender, RoutedEventArgs e) {
