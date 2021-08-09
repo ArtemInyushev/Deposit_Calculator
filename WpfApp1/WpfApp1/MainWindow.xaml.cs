@@ -35,7 +35,7 @@ namespace WpfApp1 {
                 return;
             }
             if(sum <= 0) {
-                Warning.Text = "Sum must positive number bigger than 0";
+                Warning.Text = "Sum must be positive";
                 return;
             }
 
@@ -58,7 +58,7 @@ namespace WpfApp1 {
                 return;
             }
             if (period <= 0) {
-                Warning.Text = "Period must positive number bigger than 0";
+                Warning.Text = "Period be must positive";
                 return;
             }
 
