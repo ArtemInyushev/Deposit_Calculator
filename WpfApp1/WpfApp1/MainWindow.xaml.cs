@@ -40,13 +40,13 @@ namespace WpfApp1 {
 
             string currency = Currencies.Text;
             if (currency == "") {
-                Warning.Text = "Choose currency please!";
+                Warning.Text = "Choose currency!";
                 return;
             }
 
             string method = Methods.Text;
             if (method == "") {
-                Warning.Text = "Choose method please!";
+                Warning.Text = "Choose method!";
                 return;
             }
 
