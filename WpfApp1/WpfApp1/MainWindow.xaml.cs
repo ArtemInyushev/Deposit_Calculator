@@ -58,7 +58,7 @@ namespace WpfApp1 {
                 return;
             }
             if (period <= 0) {
-                Warning.Text = "Period be must positive";
+                Warning.Text = "Period must be positive";
                 return;
             }
 
