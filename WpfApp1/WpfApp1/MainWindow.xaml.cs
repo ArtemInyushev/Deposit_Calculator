@@ -18,6 +18,7 @@ namespace WpfApp1 {
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
+        private const double percents = 0.1;
 
         public MainWindow() {
             InitializeComponent();
@@ -61,7 +62,15 @@ namespace WpfApp1 {
                 return;
             }
 
-            Result.Text = $"You've chosen '{method}' option and you have put {sum} {currency} for {period} months.";
+            double result = 0;
+            if (method == "capitolization") {
+                result = sum * Math.Pow((1 + percents / 12), period);
+            }
+            else if (method == "every month payout") {
+                result = sum * (1 + percents * period / 12);
+            }
+
+            Result.Text = $"You will get {result:#.##} {currency}s at the end of {period} months, if you choose {method}.";
         }
     }
 }

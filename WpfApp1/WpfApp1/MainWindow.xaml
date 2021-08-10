@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Test task" Height="200" Width="500">
+        Title="Test task" Height="230" Width="500">
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -28,9 +28,9 @@
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
             <TextBox x:Name="Sum" Height="20" />
             <ComboBox Name="Currencies" Height="20" VerticalAlignment="Top">
-                <TextBlock>Dollar</TextBlock>
-                <TextBlock>Euro</TextBlock>
-                <TextBlock>Pound</TextBlock>
+                <TextBlock>dollar</TextBlock>
+                <TextBlock>euro</TextBlock>
+                <TextBlock>pound</TextBlock>
             </ComboBox>
             <ComboBox Name="Methods" Height="20" VerticalAlignment="Top">
                 <TextBlock>capitolization</TextBlock>
